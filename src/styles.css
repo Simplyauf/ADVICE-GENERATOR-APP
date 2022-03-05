@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply transition-all duration-1000 flex-initial bg-blue-600 w-1/3 h-8 rounded-md border-solid border-2 border-blue-600 hover:bg-transparent 
+}
